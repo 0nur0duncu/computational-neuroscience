@@ -1,0 +1,48 @@
+Teslim Tarihi: 5 Nisan 2024, Saat 10.00
+
+Aþaðýdaki veri setlerini yazdýðýnýz perceptron öðrenme algoritmasýnda kullanýnýz.
+
+Algoritmanýz, toplam öðrenme hatasý "0" veya "0.001" olana kadar devam etsin
+
+%%--------------------------------------------
+%% Aþaðýdaki veri setlerini deneyerek perceptron öðrenme kuralý için
+%% yazdýðýnýz algoritmayý test ediniz.
+%% p deðiþkeni giriþi, t deðiþkeni çýkýþý temsil etmektedir.
+
+% Veri Seti 1 (Test Verisi)
+p = [2  1 -2 1;...
+     2 -2  2 1];
+t = [0  1  0 1];
+
+%%--------------------------------------------
+
+% Veri Seti 2 (AND)
+p = [0  0  1  1;...
+     0  1  0  1];
+t = [0  0  0  1];
+
+%%--------------------------------------------
+
+% Veri Seti 3 (OR)
+p = [0  0  1  1;...
+     0  1  0  1];
+t = [0  1  1  1];
+
+%%--------------------------------------------
+
+% Veri Seti 4 (XOR)
+p = [0  0  1  1;...
+     0  1  0  1];
+t = [0  1  1  0];
+
+%%--------------------------------------------
+
+% Veri Seti (Parite 3 Problemi)
+
+ p=[-1 -1 -1 -1  1  1  1  1;...
+    -1 -1  1  1 -1 -1  1  1;...
+    -1  1 -1  1 -1  1 -1  1];
+ t=[-1  1  1 -1  1 -1 -1  1];
+
+%%--------------------------------------------
+
